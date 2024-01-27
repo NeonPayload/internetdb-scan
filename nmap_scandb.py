@@ -35,7 +35,7 @@ for row in scan_list:
  scan_ip = scan_ip.replace("[", "")
  scan_ip = scan_ip.replace("]", "")
  print(scan_ip)
-
+# args isn't working correct for -p and pulling ports from db for now just scanning ip.
  print(nmap.nmap_list_scan(scan_ip))
 
  print("\n")
